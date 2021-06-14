@@ -14,7 +14,7 @@ const UrlList = () => {
   }
 
   const getAllUrls = async () => {
-    const data = await makeApiCall('http://localhost:3000/api/allUrl', 'GET');
+    const data = await makeApiCall('http://localhost:4000/api/allUrl', 'GET');
     setUrls(data.urls)
   }
 

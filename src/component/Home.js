@@ -32,7 +32,7 @@ const Home = () => {
       payload.password = password;
     }
     resetExpiryDateAndUserPassword();
-     return await fetch('http://localhost:3000/api/shortenUrl', {
+     return await fetch('http://localhost:4000/api/shortenUrl', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

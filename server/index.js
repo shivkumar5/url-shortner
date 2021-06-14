@@ -5,7 +5,7 @@ const winston = require('winston');
 const expressWinston = require('express-winston');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 // Connect to database
 mongoose.connect('mongodb://localhost:27017/url-shortner', { useNewUrlParser: true, useUnifiedTopology: true })
   .catch(error => () => error);
