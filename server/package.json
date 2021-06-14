@@ -1,0 +1,21 @@
+{
+  "name": "url-shortner-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "express-winston": "^4.1.0",
+    "mongoose": "^5.12.13",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9",
+    "winston": "^3.3.3"
+  }
+}
